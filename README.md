@@ -1,4 +1,4 @@
-# NADIA 🎧 (Nāda Immersive Audio)
+# NADIA 🎧
 
 NADIA is an open-source real-time spatial audio engine designed for live sound, club systems, and immersive environments. Inspired by systems like L-ISA (L-Acoustics) and Dolby Atmos, but built to be modular, transparent, and free.
 
