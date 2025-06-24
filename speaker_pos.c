@@ -10,15 +10,6 @@ typedef struct {
     float depth;
 } environment;
 
-// Speaker types
-typedef enum {
-    SPEAKER_TOP,
-    SPEAKER_SUB,
-    SPEAKER_MONITOR,
-    SPEAKER_FILL,
-    SPEAKER_ARRAY
-} SpeakerType;
-
 // Speaker specifications
 typedef struct {
     char model[32];
@@ -63,6 +54,7 @@ float compute_tilt_for_end_distance(float height, float vert_disp_deg, float tar
 }
 
 int main() {
+    /* TEST DATA
     environment hall = { .width = 30.0f, .length = 15.0f, .depth = 50.0f };
 
     Speaker mk2 = {
@@ -78,7 +70,7 @@ int main() {
         .box_height = 0.5f,
         .num_lf = 2, .num_mf = 4, .num_hf = 2
     };
-
+    */
     float base_height = hall.length - 1.0f;
     float speaker_spacing = mk2.box_height;
     float target_floor = 0.1f;
